@@ -1,0 +1,58 @@
+body {
+    
+    background-image: url("resilia.jpeg") ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+           background-size: cover;
+}
+
+body h1 {
+margin-top: 7%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+size: 5px;
+width: 55%;
+}
+
+main {
+margin-top:2%;
+}
+
+.image-box {
+    float: left;
+    margin-top:4%;
+    
+}
+
+.form-box {
+    float: right;
+    background-color: black;
+    padding: 20px;
+    border-radius: 15px;
+    color: yellow;
+    margin-right: 7%;
+    width: 350px;
+}
+
+form {
+margin: 40px 0;
+}
+
+form label{
+    display: block;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0 0 5px;
+}
+
+form input{
+    display:block; 
+    margin: 0 0 11px;
+    padding: 5px 10px;
+    width: 80%;
+}
+
+.botao{
+     width:20%;
+     color: black;
+     background-color: yellow;
+}

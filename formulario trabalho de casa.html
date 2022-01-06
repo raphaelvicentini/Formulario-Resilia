@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title> Formulário HTML</title>
+    <style>
+        body {
+            background-image:url(https://www.resilia.com.br/wp-content/uploads/2021/08/logo.png);
+            text-align: center;
+            background-repeat: no-repeat;
+           background-size: cover;
+        }
+    </style>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <form class="formulario" method="post"> 
+        <p><strong> FORMULÁRIO RESILIA</strong></p>
+        
+        <div class="field">
+            <label for="Nome Completo">Seu Nome:</label>
+            <input type="text" id="Nome Completo" name="Nome Completo" placeholder="Nome Completo*" required>
+        </div>
+        
+        <div class="field">
+            <label for="Ano de nascimento">Ano de Nascimento:</label>
+            <input id="date" type="date">
+        </div>
+
+        <div class="field">
+            <label for="CPF">CPF:</label>
+            <input type="CPF" id="CPF" name="CPF" placeholder="Digite seu CPF*" required>
+        </div>        
+                <input type="submit" name="acao" value="Enviar">
+    </form>
+</body>
+</html>
